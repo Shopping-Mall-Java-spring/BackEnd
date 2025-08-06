@@ -33,7 +33,9 @@ public class SecurityConfig {
                                 "/oauth2/**",       // OAuth2 로그인 과정
                                 "/login/**",        // 로그인 관련 주소
                                 "/auth/login/**",   // 엔드 포인트 주소
-                                "/api/v1/signup"    // 최종 회원가입 API
+                                "/api/v1/signup",    // 최종 회원가입 API
+                                "/products", // 전체 상품 조회 API
+                                "/categories/**" // 카테고리별 상품 조회 API
                         ).permitAll()
                         // 위에서 허용한 주소 외의 모든 요청은 반드시 인증을 거쳐야 합니다.
                         .anyRequest().authenticated()
