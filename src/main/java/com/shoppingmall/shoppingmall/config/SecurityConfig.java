@@ -32,6 +32,7 @@ public class SecurityConfig {
                                 "/v3/api-docs/**",  // Swagger API 문서
                                 "/oauth2/**",       // OAuth2 로그인 과정
                                 "/login/**",        // 로그인 관련 주소
+                                "/auth/login/**",   // 엔드 포인트 주소
                                 "/api/v1/signup"    // 최종 회원가입 API
                         ).permitAll()
                         // 위에서 허용한 주소 외의 모든 요청은 반드시 인증을 거쳐야 합니다.
@@ -40,6 +41,9 @@ public class SecurityConfig {
 
                 // OAuth2 소셜 로그인 설정을 시작합니다.
                 .oauth2Login(oauth2 -> oauth2
+                        .authorizationEndpoint(auth -> auth
+                                .baseUri("/auth/login")
+                        )
                         .successHandler(oAuth2LoginSuccessHandler)
                         .userInfoEndpoint(userInfo -> userInfo.userService(customOAuth2UserService))
                 );
