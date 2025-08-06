@@ -1,5 +1,6 @@
 package com.shoppingmall.shoppingmall.domain;
 
+import com.shoppingmall.shoppingmall.domain.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -31,6 +32,10 @@ public class Customer {
 
     @Column(name = "phone", nullable = false, length = 20) // VARCHAR(20)으로 변경 (하이픈 등 고려)
     private String phone;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Role role; // 사용자 권한 필드
 
     // 양방향 관계 설정 (선택 사항)
     // Customer와 Cart는 1:1 관계 (권장) 또는 1:N 관계 (ERD상 1:N로 보여짐)
