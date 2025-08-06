@@ -1,0 +1,7 @@
+
+INSERT INTO category (category_key, category_name) VALUES (1, '식품');
+INSERT INTO category (category_key, category_name) VALUES (2, '생활용품');
+
+INSERT INTO item (category_key, name, price, quantity, item_desc) VALUES (1, '사과', 2500, 200, '아주 맛있는 충주 사과');
+INSERT INTO item (category_key, name, price, quantity, item_desc) VALUES (1, '귤', 700, 500, '달콤한 제주 감귤');
+INSERT INTO item (category_key, name, price, quantity, item_desc) VALUES (2, '양산', 15000, 150, '자외선 차단 기능이 있는 튼튼한 양산');
