@@ -1,8 +1,6 @@
 package com.shoppingmall.shoppingmall.service;
 
-import com.shoppingmall.shoppingmall.config.auth.OAuthAttributes;
-import com.shoppingmall.shoppingmall.domain.Customer;
-import com.shoppingmall.shoppingmall.domain.CustomerRepository;
+import com.shoppingmall.shoppingmall.commons.auth.OAuthAttributes;
 import com.shoppingmall.shoppingmall.domain.enums.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

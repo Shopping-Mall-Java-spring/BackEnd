@@ -1,5 +1,6 @@
-package com.shoppingmall.shoppingmall.domain;
+package com.shoppingmall.shoppingmall.repository;
 
+import com.shoppingmall.shoppingmall.domain.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

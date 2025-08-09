@@ -1,4 +1,4 @@
-package com.shoppingmall.shoppingmall.config.auth;
+package com.shoppingmall.shoppingmall.commons.auth;
 
 import com.shoppingmall.shoppingmall.domain.Customer;
 import com.shoppingmall.shoppingmall.domain.enums.Role;

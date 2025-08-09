@@ -1,9 +1,9 @@
-package com.shoppingmall.shoppingmall.handler;
+package com.shoppingmall.shoppingmall.commons.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shoppingmall.shoppingmall.config.auth.OAuthAttributes;
-import com.shoppingmall.shoppingmall.domain.CustomerRepository;
-import com.shoppingmall.shoppingmall.jwt.JwtUtil;
+import com.shoppingmall.shoppingmall.commons.auth.OAuthAttributes;
+import com.shoppingmall.shoppingmall.repository.CustomerRepository;
+import com.shoppingmall.shoppingmall.commons.auth.JwtUtil;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

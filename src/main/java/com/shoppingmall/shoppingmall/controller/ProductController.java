@@ -1,7 +1,7 @@
-package com.shoppingmall.shoppingmall.web;
+package com.shoppingmall.shoppingmall.controller;
 
 import com.shoppingmall.shoppingmall.service.ItemService;
-import com.shoppingmall.shoppingmall.web.dto.ProductListResponseDto;
+import com.shoppingmall.shoppingmall.dto.ProductListResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

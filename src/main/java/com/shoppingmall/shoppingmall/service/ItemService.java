@@ -1,7 +1,7 @@
 package com.shoppingmall.shoppingmall.service;
 
-import com.shoppingmall.shoppingmall.domain.ItemRepository;
-import com.shoppingmall.shoppingmall.web.dto.ProductListResponseDto;
+import com.shoppingmall.shoppingmall.repository.ItemRepository;
+import com.shoppingmall.shoppingmall.dto.ProductListResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
