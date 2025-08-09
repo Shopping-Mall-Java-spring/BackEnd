@@ -1,4 +1,4 @@
-package com.shoppingmall.shoppingmall.jwt;
+package com.shoppingmall.shoppingmall.commons.auth;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
