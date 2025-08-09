@@ -1,9 +1,9 @@
 package com.shoppingmall.shoppingmall.service;
 
 import com.shoppingmall.shoppingmall.domain.Customer;
-import com.shoppingmall.shoppingmall.domain.CustomerRepository;
+import com.shoppingmall.shoppingmall.repository.CustomerRepository;
 import com.shoppingmall.shoppingmall.domain.enums.Role;
-import com.shoppingmall.shoppingmall.web.dto.CustomerSignupRequestDto;
+import com.shoppingmall.shoppingmall.dto.CustomerSignupRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

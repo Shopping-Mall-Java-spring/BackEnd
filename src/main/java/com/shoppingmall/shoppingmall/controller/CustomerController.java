@@ -1,8 +1,8 @@
-package com.shoppingmall.shoppingmall.web;
+package com.shoppingmall.shoppingmall.controller;
 
-import com.shoppingmall.shoppingmall.jwt.JwtUtil;
+import com.shoppingmall.shoppingmall.commons.auth.JwtUtil;
 import com.shoppingmall.shoppingmall.service.CustomerService;
-import com.shoppingmall.shoppingmall.web.dto.CustomerSignupRequestDto;
+import com.shoppingmall.shoppingmall.dto.CustomerSignupRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

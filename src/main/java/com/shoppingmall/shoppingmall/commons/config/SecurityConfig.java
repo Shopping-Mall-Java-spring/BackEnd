@@ -1,6 +1,6 @@
-package com.shoppingmall.shoppingmall.config;
+package com.shoppingmall.shoppingmall.commons.config;
 
-import com.shoppingmall.shoppingmall.handler.OAuth2LoginSuccessHandler;
+import com.shoppingmall.shoppingmall.commons.handler.OAuth2LoginSuccessHandler;
 import com.shoppingmall.shoppingmall.service.CustomOAuth2UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
